@@ -1,0 +1,27 @@
+---
+ip: "192.168.10.66"
+memory: 1024
+cpus: 2
+
+name: wp-composer
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: .
+      to: /home/vagrant/wp-composer
+
+sites:
+    - map: wordpress.app
+      to: /home/vagrant/wp-composer/wordpress
+
+databases:
+    - homestead
+
+variables:
+    - key: APP_ENV
+      value: local
