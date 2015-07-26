@@ -4,7 +4,7 @@ require 'yaml'
 VAGRANTFILE_API_VERSION = "2"
 confDir = $confDir ||= File.expand_path("vendor/laravel/homestead")
 
-homesteadYamlPath = "wp-composer.yaml"
+homesteadYamlPath = "wordpress.yaml"
 afterScriptPath = "scripts/after.sh"
 aliasesPath = "aliases"
 
