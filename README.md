@@ -3,8 +3,8 @@
 Develop WordPress Sites with Composer and Homestead.
 
 #Installation
-`git clone git@github.com:gpspake/WP-Composer-Homstead.git`  
-`cd WP-Composer-Homstead`  
+`git clone git@github.com:gpspake/WP-Composer-Homestead.git`  
+`cd WP-Composer-Homestead`  
 `composer install`  
 `vagrant up`
 Update hosts file to include domain and ip in wordpress.yaml - default: wordpress.app 192.168.10.10
