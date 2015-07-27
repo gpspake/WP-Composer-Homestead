@@ -1,4 +1,4 @@
-# WP-Composer-Homstead
+# WP-Composer-Homestead
 
 Develop WordPress Sites with Composer and Homestead.
 
