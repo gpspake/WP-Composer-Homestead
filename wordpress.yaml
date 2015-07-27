@@ -3,7 +3,7 @@ ip: "192.168.10.10"
 memory: 1024
 cpus: 2
 
-name: wp-composer
+name: wordpress
 provider: virtualbox
 
 authorize: ~/.ssh/id_rsa.pub
@@ -13,11 +13,11 @@ keys:
 
 folders:
     - map: .
-      to: /home/vagrant/wp-composer
+      to: /home/vagrant/wordpress
 
 sites:
     - map: wordpress.app
-      to: /home/vagrant/wp-composer/wordpress
+      to: /home/vagrant/wordpress/wordpress
 
 databases:
     - homestead
